@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Music Player' do
+  use_frameworks!
+  
+  pod 'Alamofire', '~> 4.9'
+  pod 'AlamofireImage'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SnapKit'
+  pod 'Toast-Swift'
+  pod 'JGProgressHUD'
+  pod 'YoutubeKit'
+end
